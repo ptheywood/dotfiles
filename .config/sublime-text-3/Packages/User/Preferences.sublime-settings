@@ -1,0 +1,53 @@
+{
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Predawn/predawn.tmTheme",
+	"default_line_ending": "system",
+	"detect_slow_plugins": false,
+	"dictionary": "Packages/Language - English/en_GB.dic",
+	"disable_tab_abbreviations": true,
+	"draw_minimap_border": false,
+	"draw_white_space": "selection",
+	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"__pycache__"
+	],
+	"font_face": "Source Code Pro",
+	"font_size": 10,
+	"gutter": true,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"predawn_sidebar_arrows": false,
+	"predawn_sidebar_large": false,
+	"predawn_sidebar_medium": false,
+	"predawn_sidebar_narrow": false,
+	"predawn_sidebar_small": true,
+	"predawn_sidebar_xlarge": false,
+	"predawn_sidebar_xsmall": false,
+	"predawn_tabs_active_underline": false,
+	"predawn_tabs_large": false,
+	"predawn_tabs_medium": false,
+	"predawn_tabs_small": true,
+	"shift_tab_unindent": true,
+	"tab_completion": false,
+	"tab_size": 4,
+	"theme": "predawn-DEV.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": true,
+	"use_tab_stops": true,
+	"word_wrap": true
+}
