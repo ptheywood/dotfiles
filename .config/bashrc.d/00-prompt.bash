@@ -131,7 +131,12 @@ get_git_info () {
   fi
 }
 
+# @todo - use variables for colours
+# @todo - show if ssh'd or not somehow.
+# @todo - is there a better way of making the time visible?
+# @todo - Different git icons? Maybe see what the gh client uses
+
 set_prompt() {
-  export PS1="\[\e[1;30m\][\[\e[1;31m\]\t \[\e[0;32m\]\h\[\e[1;30m\]] \[\e[0;36m\]\w\$( is_on_git && echo -n \"\[\e[0;35m\] \$(get_git_info)\" && echo -n \"\[\e[0;31m\]\") \[\e[1;32m\]→\[\e[0m\] \n"
+  export PS1="\[\e[1;30m\][\[\e[1;31m\]\t \[\e[0;33m\]\u\[\e[0;34m\]@\[\e[0;32m\]\h\[\e[1;30m\]] \[\e[0;36m\]\w\$( is_on_git && echo -n \"\[\e[0;35m\] \$(get_git_info)\" && echo -n \"\[\e[0;31m\]\") \[\e[1;32m\]→\[\e[0m\] \n"
 }
 PROMPT_COMMAND=set_prompt
