@@ -23,3 +23,13 @@
     sl = shortlog -s -n
     sle = shortlog -s -n -e
     mg = merge --no-ff
+[submodule]
+    recurse = true
+
+# Any requests to https:// will actually be redirected to git@github.com. I.e. always use git/ssh instead of https
+[url "git@github.com:"]
+    insteadOf = https://github.com/
+
+[status]
+    # Show all untracked files on git status (i.e. the contents of a new directory). This can make things slow...
+    showUntrackedFiles = all
