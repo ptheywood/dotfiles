@@ -20,5 +20,9 @@ alias utargz='tar -zxvf'
 
 alias spotifyweb='chromeApp "https://play.spotify.com/radio"'
 
+alias gpu-top-pid='nvidia-smi --query-compute-apps=pid,process_name,used_memory --format=csv | sed -n 2p | cut -d"," -f1'
+
+alias cuda-gdb-attach='sudo env PATH=$PATH cuda-gdb -p `gpu-top-pid`'
+
 
 # alias pip3='python3 -m pip'

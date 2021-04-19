@@ -23,6 +23,9 @@
     sl = shortlog -s -n
     sle = shortlog -s -n -e
     mg = merge --no-ff
+    lhs = describe --long --dirty --tags --always
+
+    
 [submodule]
     recurse = true
 
